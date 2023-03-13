@@ -1,0 +1,12 @@
+class on favorites: https://www.youtube.com/watch?v=F627pKNUCVQ&list=WL&index=206 
+minute: 13:30
+
+in local repository gpt3: 
+    
+    npx create-react-app ./
+
+    install the extension: ES7+ React/Redux/React-Native snippets
+    (with that extension we can use the comand rafce and construct react functional Component.)
+
+    npm install react-icons
+    (in this project we'll use react skills only)
