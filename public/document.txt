@@ -1,7 +1,7 @@
 class on favorites: https://www.youtube.com/watch?v=F627pKNUCVQ&list=WL&index=206 
-minute: 13:30
+minute: 32:30
 
-in local repository gpt3: 
+Setup our repository gpt3: 
     
     npx create-react-app ./
 
@@ -10,3 +10,27 @@ in local repository gpt3:
 
     npm install react-icons
     (in this project we'll use react skills only)
+
+    creating the folder 'components' with folders: article, brand, cta, feature and navbar
+    export files on this folders at index.js in the folder 'components' 
+    
+    creating the folder 'containers' with folders: blog, features, footer, header, possibility and whatGPT3
+    export files on this folders at index.js in the folder 'containers'
+
+    in App.js we can import all files that we need: 
+        import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers'
+        import { Brand, CTA, Navbar } from './components'   
+    that way we keep it simple and clean.
+    now we can construct the application calling ours interfaces. 
+
+    at folder 'src' we have the 'App.css' where i'm setting general css's rules 
+    at folder 'src' we have the 'index.css' in that file we setup a font style and colors as variable
+    to use on 'App.css'
+
+    in the site 'angrytools.com/gradient/' we generate the gradient to the application
+
+    setting up 'react-dom' at 'src > index.js' a new version 18 of React: 
+        import { createRoot } from 'react-dom/client';
+        const container = document.getElementById('root');
+        const root = createRoot(container); // createRoot(container!) if you use TypeScript
+        root.render(<App tab="home" />);
