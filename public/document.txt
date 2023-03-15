@@ -1,5 +1,7 @@
 class on favorites: https://www.youtube.com/watch?v=F627pKNUCVQ&list=WL&index=206 
-minute: 32:30
+minute: 43:20
+
+Layout: https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A15&t=4iFFDrdYVfC3IY4z-0
 
 Setup our repository gpt3: 
     
@@ -34,3 +36,15 @@ Setup our repository gpt3:
         const container = document.getElementById('root');
         const root = createRoot(container); // createRoot(container!) if you use TypeScript
         root.render(<App tab="home" />);
+
+    in the site animista.net/play/basic/scale-up we get some animation to use in our project
+
+    importing menu of navbar with: import { RiMenu3Line, RiCloseLin } from 'react-icons/ri'
+    at 'Navbar.jsx'
+
+    in this project we're using a BEM (Block Element Modifier) concept / good practice.
+    more about that here: https://sparkbox.com/foundry/bem_by_example
+
+    in the folder 'assets' we have all the logos and images that we need in the layout.
+
+    
