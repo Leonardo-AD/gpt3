@@ -1,5 +1,5 @@
 class on favorites: https://www.youtube.com/watch?v=F627pKNUCVQ&list=WL&index=206 
-minute: 43:20
+minute: 1:01:10
 
 Layout: https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A15&t=4iFFDrdYVfC3IY4z-0
 
@@ -47,4 +47,15 @@ Setup our repository gpt3:
 
     in the folder 'assets' we have all the logos and images that we need in the layout.
 
-    
+    in the file 'index.css' font-size: 62.5%; tha will set a size 16px as 1.6rem.
+    just divide the size in px for 10: 16px/10 = 1.6rem
+
+    in 'Navbar.jsx' we're using the hook useState to toggle the Menu application
+    when this useState are true an icon appears to close the menu. Here we are using
+    the RiCloseLine to add an icon on menu.
+
+    the const Menu in 'Navbar.jsx' contains the menu links inside a react fragment. 
+    That way we can use the 'const Menu' to show the options and it's more clean.
+
+
+
