@@ -1,5 +1,5 @@
 class on favorites: https://www.youtube.com/watch?v=F627pKNUCVQ&list=WL&index=206 
-minute: 1:01:10
+minute: 1:05:00
 
 Layout: https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A15&t=4iFFDrdYVfC3IY4z-0
 
@@ -19,11 +19,25 @@ Setup our repository gpt3:
     creating the folder 'containers' with folders: blog, features, footer, header, possibility and whatGPT3
     export files on this folders at index.js in the folder 'containers'
 
+    IMPORT:
+        I'm using to export: export FunctionName (){} instead of export default FunctionName().
+        in that case to import the FunctionName() we need to use: import {FunctionName} from './file'
+
     in App.js we can import all files that we need: 
         import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers'
         import { Brand, CTA, Navbar } from './components'   
     that way we keep it simple and clean.
     now we can construct the application calling ours interfaces. 
+
+    MENU LINKS INSED A FRAGMENT:
+        the menu links in the const Menu at 'Navbar.jsx'. When we need the Menu links just use <Menu /> to calling
+        this items inside a DIV for example. It's have been more clean as well.
+
+    TOGGLE MENU:
+        in toggle menu we are using a ternary operator to verify if has a 'togglemenu'
+        if togglemenu equal true the x icons appears to close the menu, if togglemenu equal false the 3 lines icon appears.
+
+        if exists a togglemenu we call the fragment <Menu /> and the sign in and sign up links.
 
     at folder 'src' we have the 'App.css' where i'm setting general css's rules 
     at folder 'src' we have the 'index.css' in that file we setup a font style and colors as variable

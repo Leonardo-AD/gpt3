@@ -21,12 +21,15 @@ export const Navbar = () => {
   return(
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
+
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="gpt3 logo" />
         </div>
+
         <div className="gpt3__navbar-links_container">
           <Menu />
         </div>
+        
       </div>
 
       <div className="gpt3__navbar-sign">
