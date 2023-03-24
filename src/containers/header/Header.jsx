@@ -30,7 +30,6 @@ export const Header = () => {
         <div classNamne="gpt3__header-image">
           <img src={ai} alt="AI" />
         </div>
-
       </div>
     </div>
   )
