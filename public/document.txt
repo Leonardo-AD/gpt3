@@ -87,6 +87,16 @@ Setup our repository gpt3:
         The images are imported from the file 'imports.js'.
     
     WhatGPT3:
+        inserting text and explanation about the features of Chatgpt3. 
+        adding css styles and that's done.
+
+        to the Feature I'm setting the title and text as arguments to the 
+        Feature.jsx that receives the parameters ({title, text}).
+
+    Feature.jsx:
+        Feature.jsx receives the parameters ({title, text}) that come from WhatGPT3.jsx.
+        
+
 
         
     
