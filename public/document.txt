@@ -1,5 +1,5 @@
 class on favorites: https://www.youtube.com/watch?v=F627pKNUCVQ&list=WL&index=206 
-minute: 1:40:00
+minute: 2:00:00
 
 Layout: https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A15&t=4iFFDrdYVfC3IY4z-0
 
@@ -95,7 +95,12 @@ Setup our repository gpt3:
 
     Feature.jsx:
         Feature.jsx receives the parameters ({title, text}) that come from WhatGPT3.jsx.
-        
+        And this make the features information blocks.
+
+    =======================
+
+    Features.jsx:
+
 
 
         
