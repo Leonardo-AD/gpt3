@@ -1,5 +1,5 @@
 class on favorites: https://www.youtube.com/watch?v=F627pKNUCVQ&list=WL&index=206 
-minute: 2:00:00
+minute: 2:03:00
 
 Layout: https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A15&t=4iFFDrdYVfC3IY4z-0
 
@@ -99,9 +99,11 @@ Setup our repository gpt3:
 
     =======================
 
-    Features.jsx:
-
-
+    container > features > Features.jsx:
+        here we're describing the features about the Chatgpt3 (call to action)  
+        the text about functions and features of gpt3 are generated using an Array.
+        the map() read and implement the title and text attributes in the component
+        Feature.jsx to construct the text block.
 
         
     
