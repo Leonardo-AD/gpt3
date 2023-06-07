@@ -37,7 +37,7 @@ export const Features = () => {
 
       <div className="gpt3__features-container">
         {featuresData.map((item, index) => (
-          <Feature />  
+          <Feature title={item.title} text={item.text} key={item.title + index} />  
         ))}
       </div>
     </div>
