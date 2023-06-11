@@ -1,5 +1,5 @@
 class on favorites: https://www.youtube.com/watch?v=F627pKNUCVQ&list=WL&index=206 
-minute: 2:19:30
+minute: 2:33:40
 
 Layout: https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A15&t=4iFFDrdYVfC3IY4z-0
 
@@ -109,5 +109,7 @@ Setup our repository gpt3:
         here we're adding some info about ours possibilities and getting a image background
         in the folder assets.    
     
+    components > cta > CTA.jsx:
+        here we're adding the Call To Action text and button to get started.
     
 
