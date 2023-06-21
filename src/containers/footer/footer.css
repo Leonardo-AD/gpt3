@@ -1,5 +1,4 @@
 .gpt3__footer {
-    color: #FFFFFF;
     display: flex;
     flex-direction: column;
     
@@ -54,4 +53,93 @@
     
     width: 100%;
     text-align: left;
+}
+
+.gpt3__footer-links div {
+    width: 25rem;
+    margin: 1.6rem;
+}
+
+.gpt3__footer-links_logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.gpt3__footer-links_logo img {
+    width: 11.8rem;    
+    height: 3rem;
+    margin-bottom: 1.6rem;
+}
+
+.gpt3__footer-links_logo p {
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #FFFFFF;
+}
+
+.gpt3__footer-links_div {
+   display: flex; 
+   justify-content: flex-start;
+   flex-direction: column;
+}
+
+.gpt3__footer-links_div h4 {
+    font-family: var(--font-family);
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #FFFFFF;
+    margin-bottom: 1.6rem;
+}
+
+.gpt3__footer-links_div p {
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #FFFFFF;
+    margin: .5rem 0;
+    cursor: pointer;
+}
+
+.gpt3__footer-copyright {
+    margin-top: 3.2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.gpt3__footer-copyright p {
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 850px) {
+    .gpt3__footer-heading h1 {
+        font-size: 4.4rem;
+        line-height: 5rem;
+    }    
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__footer-heading h1 {
+        font-size: 3.4rem;
+        line-height: 4.2rem;
+    }
+    
+    .gpt3__footer-links div {
+        margin: 1.6rem 0;
+    }
+
+    .gpt3__footer-btn p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .gpt3__footer-heading h1 {
+        font-size: 2.7rem;
+        line-height: 3.8rem;
+    }    
 }
