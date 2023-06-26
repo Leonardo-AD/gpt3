@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+<h1 align='center'>ChatGPT 3</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>With this application I learned a lot about components and containers also some skills and good practices to apply in React projects. In this app I am using React, JavaScript, HTML5, CSS3 and React-icons.</p>
 
-## Available Scripts
+## Features Developed
 
-In the project directory, you can run:
+- [x] BEM Concept (Block Element Modifier)
+- [x] Components and Containers
+- [x] Responsivity
 
-### `npm start`
+## Prototype
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can access the prototype by clicking the button below.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<a href="https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A15&t=4iFFDrdYVfC3IY4z-0">![Figma](https://img.shields.io/badge/Access%20Prototype-2A2141?style=for-the-badge&logo=figma&logoColor=white)</a>
 
-### `npm test`
+## Interface
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>Home section</p>
 
-### `npm run build`
+<img src="./public/home.png" width="400"/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>What is GPT3 section</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="./public/whatIsGPT3.png" width="300"/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p>Possibilities section</p>
 
-### `npm run eject`
+<img src="./public/possibilities.png" width="300"/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p>Features section</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="./public/features.png" width="300"/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p>Blog section</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="./public/blog.png" width="300"/>
 
-## Learn More
+<p>Footer section</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="./public/footer.png" width="300"/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Starting the Application
 
-### Code Splitting
+<p>1. After cloning the project</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+cd gpt3
+```
 
-### Analyzing the Bundle Size
+<p>2. In the qrcode repository we need to install the dependencies</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm install
+```
 
-### Making a Progressive Web App
+<p>3. And finally we can run the application</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm start
+```
 
-### Advanced Configuration
+## Technologies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![REACT](https://img.shields.io/badge/REACT-61dafb?style=for-the-badge&logo=react&logoColor=white)
+![Figma](https://img.shields.io/badge/FIGMA-2A2141?style=for-the-badge&logo=figma&logoColor=white)
 
-### Deployment
+## Services Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![VERCEL](https://img.shields.io/badge/VERCEL-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-### `npm run build` fails to minify
+## Deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can access the project by clicking the button below.
+
+<a href="https://gpt3-leonardo-ad.vercel.app/" target='_blank'>![VERCEL](https://img.shields.io/badge/VERCEL-000000?style=for-the-badge&logo=vercel&logoColor=white)</a>
+
+## Autor
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/leonardo-ad"><img src="https://avatars.githubusercontent.com/u/37024336?v=4" style="border-radius: 50px;" width="100px;" height="100px" alt="Autor image"/>
+      <br/>
+      <sub><b>Leonardo Alves Dias</b></sub>
+      <br/><br/>
+      <a href="https://www.linkedin.com/in/leonardo-alves-877368165/"><img src="https://user-images.githubusercontent.com/86114583/192514843-1087a34f-74f9-46aa-94fa-e824950af81f.svg" width="20px"/> <a href="mailto:leonardo.alves779@gmail.com"><img src="https://user-images.githubusercontent.com/86114583/192515071-4fa6bce6-6ee9-49ca-9395-c17e74075a20.svg" width="20px"/>
+      </a>
+    </td>
+   </tr>
+</table>
