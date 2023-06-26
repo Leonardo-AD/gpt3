@@ -18,27 +18,27 @@ You can access the prototype by clicking the button below.
 
 <p>Home section</p>
 
-<img src="./public/home.png" width="400"/>
+<img src="./public/home.png" width="800"/>
 
 <p>What is GPT3 section</p>
 
-<img src="./public/whatIsGPT3.png" width="300"/>
+<img src="./public/whatIsGPT3.png" width="800"/>
 
 <p>Possibilities section</p>
 
-<img src="./public/possibilities.png" width="300"/>
+<img src="./public/possibilities.png" width="800"/>
 
 <p>Features section</p>
 
-<img src="./public/features.png" width="300"/>
+<img src="./public/features.png" width="800"/>
 
 <p>Blog section</p>
 
-<img src="./public/blog.png" width="300"/>
+<img src="./public/blog.png" width="800"/>
 
 <p>Footer section</p>
 
-<img src="./public/footer.png" width="300"/>
+<img src="./public/footer.png" width="800"/>
 
 ## Starting the Application
 
